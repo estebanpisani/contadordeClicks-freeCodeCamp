@@ -1,5 +1,6 @@
 import './App.css';
 import Boton from './components/Boton';
+import Contador from './components/Contador';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
   return (
     <div className="App">
       <div className='contenedor-principal'>
+        <Contador numClicks='5' />
         <Boton texto='Click' esBotonDeClick={true} manejarClick={manejarClick} />
         <Boton texto='Reiniciar' esBotonDeClick={false} manejarClick={reiniciarContador}/>
 
