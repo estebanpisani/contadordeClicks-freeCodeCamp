@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/Boton.css'
 
 //En vez de recibir el objeto 'props' como parámetro, directamente indicamos qué propiedades de ese props {} queremos recibir. Esta sintaxis se llama Destructuring.
 //Recibimos un   string,    boolean,   función.
