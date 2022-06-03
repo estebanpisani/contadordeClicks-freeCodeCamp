@@ -9,11 +9,11 @@ function App() {
 
   const sumarClick = () =>{
     setNumClicks(numClicks + 1);
-  }
+  };
 
   const reiniciarContador = () =>{
     setNumClicks(0);
-  }
+  };
 
 
   return (
